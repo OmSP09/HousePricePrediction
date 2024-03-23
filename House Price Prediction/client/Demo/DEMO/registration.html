@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bodyreg">
+    <nav class="navbar">
+        <div>
+            <ul>
+                <li class="hoverkarbhai"><a href="home.html">Home</a></li>
+                <li class="hoverkarbhai"><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="containerreg">
+        <h2 class="regtitle">CREATE AN ACCOUNT</h2>
+        <form id="registrationForm">
+            <div class="input-container">
+                <input type="text" id="fullName" placeholder="Full Name" name="username" required>
+            </div>
+            <div class="input-container">
+                <input type="email" id="email" placeholder="Email Address" name="email" required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="password" placeholder="Password" name="password"required>
+            </div>
+            <div class="input-container">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+	    <input class="buttonreg" type="submit" value="Register">
+        </form>
+        
+    </div>
+
+	<!--<script>
+	document.addEventListener("DOMContentLoaded", function () {
+    	const registrationForm = document.getElementById("registrationForm");
+    	registrationForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+	const username = document.getElementById("fullName").value;
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
+	const email = document.getElementById("email").value;
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match. Please try again.");
+            return;
+        }
+        localStorage.setItem(username, password, email);
+
+        window.location.href = "./login.html";
+    });
+});
+	</script> -->
+
+<script src="rej.js"></script>    
+</body>
+</html>
+

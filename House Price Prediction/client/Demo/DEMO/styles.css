@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url('bgimg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 50px;
+    margin: 10px 0px 90px 0px;
+}
+
+
+.content p1{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    
+}
+
+.button a{
+	color: white;
+	background: transparent;
+	text-decoration: none;
+}
+
+.button{
+    position: relative;
+    transform: translateX(-300%);
+    width: 200px;
+    padding: 15px 0;
+    text-align: center; 
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position:relative;
+    overflow:hidden;
+}
+
+/*
+.button a:hover{
+	color: black;
+}*/
+
+.button:hover, {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.bodyreg {        /*Ye registraion aur login inputs ke liye*/
+    margin: 0;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.regtitle{
+    color:#ccc;
+}
+
+
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*
+#login{
+	width:
+}*/
+
+.buttonreg {
+    width: 100%;
+    padding: 10px 60px 10px 60px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar{
+    width:85%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    transform: translateX(-50%);
+    transform: translateY(-250px);
+    /* bottom: 80%; */
+}
+
+/* .hoverkarbhai1{
+    flex: 50%;
+}
+.hoverkarbhai2{
+    flex: 50%;
+} */
+
+.hoverkarbhai:hover{
+    text-decoration: underline;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* display: inline-block; */
+    /* margin:0 500px; */
+    /* position: absolute; */
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;    
+}
+
+a:hover {
+    text-decoration: underline;
+} 
+
+.containerreg{
+	position: relative;
+	right: 43%;
+}
+
+/* 
+.navbar {
+    width:85%;
+    margin-bottom: 40%;
+    margin-left: 65%;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar ul li a::after{
+    content: '';
+    height: 3px;
+    width: 100;
+    background: #009688;
+    position:  absolute;
+    left:0;
+    bottom:10px;
+    transition: 0.5s;
+} 
+
+
+  */
